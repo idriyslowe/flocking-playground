@@ -7,19 +7,6 @@
  * rules of avoidance, alignment, and coherence.
  * 
  */
- 
-// Fun excercise to play with for visual understanding of vectors
-// Allows for some insight into drawing functions
-// I'm flushing out all the levers I need to control behavior
-// Moving slowly bc I'm refactoring as I add features
-
-// Started with breaking out a boid reluctant to join the flock (SlowJoinBoid)
-// Continued with a boid avoiding the flock altogether (AvoidantBoid)
-// Worked in some color-changing to identify these outsiders (Boid.updateColor())
-// Add keypresses to add and test various boids (FlockingPlay.keyPressed())
-// Flock adds a BoidOfPrey to control population when too large.
-// predator marks other Boids "dead" so they are exluded from the next run of the Flock.
-// predator also grows each time it kills
 
 
 //TODO: Look at this for mouse-following: 
